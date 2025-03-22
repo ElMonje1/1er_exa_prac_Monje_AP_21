@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Exa_Monje_21_AP"
         tools:targetApi="31">
         <activity
+            android:name=".Consulta"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
